@@ -2,6 +2,7 @@
     <string name="app_name">Bin App</string>
     <string name="search_hint_string">Enter 6-8 digits</string>
     <string name="search_string">Search</string>
+    <string name="history_string">History</string>
     <string name="bin_number_string">BIN number: %s</string>
     <string name="length_string">Length: %s</string>
     <string name="luhn_string">Luhn: %s</string>

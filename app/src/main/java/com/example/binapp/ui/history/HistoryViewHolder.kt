@@ -57,7 +57,7 @@ class HistoryViewHolder(
 
     fun setData(data: BinInfo) {
         val context = binding.root.context
-        binding.tvLength.text =
+        binding.tvNumber.text =
             String.format(context.getString(R.string.bin_number_string), data.number)
         binding.tvLength.text =
             String.format(context.getString(R.string.length_string), data.length.toString())
