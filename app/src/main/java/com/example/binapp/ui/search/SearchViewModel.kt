@@ -20,6 +20,7 @@ class SearchViewModel(
         get() = _screenState
 
     fun getBinInfo(number: String) {
+        _screenState.value = SearchScreenState.Loading
         viewModelScope.launch {
             val result = searchInteractor.searchBinInfo(number)
             successResult(result)

@@ -25,6 +25,7 @@
             android:lines="1"
             android:maxLines="1"
             android:maxLength="8"
+            android:inputType="number"
             android:imeOptions="actionDone" />
 
     </com.google.android.material.textfield.TextInputLayout>
@@ -35,6 +36,7 @@
         android:layout_height="wrap_content"
         android:layout_marginStart="8dp"
         android:text="@string/search_string"
+        android:enabled="false"
         app:layout_constraintTop_toTopOf="parent"
         app:layout_constraintStart_toEndOf="@id/til_search"
         app:layout_constraintEnd_toEndOf="parent"
@@ -105,6 +107,7 @@
         android:layout_marginTop="8dp"
         android:text="@string/country_title_string"
         android:textStyle="bold"
+        android:visibility="gone"
         app:layout_constraintTop_toBottomOf="@id/tv_prepaid"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintEnd_toEndOf="parent" />
@@ -172,6 +175,7 @@
         android:layout_marginTop="8dp"
         android:text="@string/bank_title_string"
         android:textStyle="bold"
+        android:visibility="gone"
         app:layout_constraintTop_toBottomOf="@id/tv_country_longitude"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintEnd_toEndOf="parent" />
