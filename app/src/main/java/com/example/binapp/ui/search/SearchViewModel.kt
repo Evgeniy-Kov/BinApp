@@ -23,7 +23,7 @@ class SearchViewModel(
         _screenState.value = SearchScreenState.Loading
         viewModelScope.launch {
             val result = searchInteractor.searchBinInfo(number)
-            successResult(result)
+            processResult(result)
         }
     }
 
@@ -33,7 +33,7 @@ class SearchViewModel(
         }
     }
 
-    private fun successResult(resource: Resource<BinInfo>) {
+    private fun processResult(resource: Resource<BinInfo>) {
         when (resource) {
             is Resource.Success -> {
                 saveToHistory(resource.data)
