@@ -1,3 +1,31 @@
 <resources>
     <string name="app_name">Bin App</string>
+    <string name="search_hint_string">Enter 6-8 digits</string>
+    <string name="search_string">Search</string>
+    <string name="history_string">History</string>
+    <string name="bin_number_string">BIN number: %s</string>
+    <string name="length_string">Length: %s</string>
+    <string name="luhn_string">Luhn: %s</string>
+    <string name="scheme_string">Scheme: %s</string>
+    <string name="type_string">Type: %s</string>
+    <string name="brand_string">Brand: %s</string>
+    <string name="prepaid_string">Prepaid: %s</string>
+    <string name="country_title_string">Country</string>
+    <string name="country_name_string">Name: %s</string>
+    <string name="country_numeric_string">Numeric: %s</string>
+    <string name="country_alpha2_string">Alpha2: %s</string>
+    <string name="country_emoji_string">Emoji: %s</string>
+    <string name="country_currency_string">Currency: %s</string>
+    <string name="country_latitude_string">Latitude: %s</string>
+    <string name="country_longitude_string">Longitude: %s</string>
+    <string name="bank_title_string">Bank</string>
+    <string name="bank_name_string">Name: %s</string>
+    <string name="bank_url_string">URL: %s</string>
+    <string name="bank_phone_string">Phone: %s</string>
+    <string name="bank_city_string">City: %s</string>
+    <string name="search_history_title_string">Search history</string>
+    <string name="empty_history_string">History is empty</string>
+    <string name="dialog_title">Delete BIN from history?</string>
+    <string name="dialog_positive">Yes</string>
+    <string name="dialog_negative">No</string>
 </resources>
